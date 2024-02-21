@@ -18,14 +18,14 @@ class Circle(Shape):
         return 3.14 * self.radius * self.radius
 
 class Triangle(Shape):
-    def __init_(self, b, h):
+    def __init__(self, b, h):
         self.base = b
         self.height = h
     def getArea(self):
         return 0.5 * self.base * self.height
 
 # read txt file
-file = open(r'/Users/kandaceanz/Desktop/Anz-GEOG676-Spring2024/Lab_3/Lab3_Text.rtf', 'r')
+file = open(r'/Users/kandaceanz/Desktop/Anz-GEOG676-Spring2024/Lab_3/Lab_3_Shapes.txt', 'r')
 lines = file.readlines()
 file.close()
 
